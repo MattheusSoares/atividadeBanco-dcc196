@@ -10,6 +10,8 @@ public class SerieContract {
             Serie.COLUMN_NAME_TITULO_TEMPORADA_EPISODIO + TEXT_TYPE + SEP  + ")";
     public static final String SQL_DROP_SERIE = "DROP TABLE IF EXISTS" + Serie.TABLE_NAME;
 
+    public SerieContract() {
+    }
 
 
     public static final class Serie implements BaseColumns {
